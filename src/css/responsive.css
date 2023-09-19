@@ -1,0 +1,334 @@
+@media (min-width:768px) 
+
+{.heading-l 
+    {font-family: "Fraunces", serif;
+     font-style: normal;
+     font-size: 60px;
+     line-height: 60px;
+     color: var(--light); 
+     font-weight: 600;
+     width: 573px;
+     height: 121px;
+     text-align: center;
+     margin-top: 60px;
+     
+     }
+  
+  .heading-m
+    { font-family: "Fraunces", serif;
+      font-style: normal;
+      font-size:48px;
+      line-height: 56px;
+      font-weight: 600;
+      color: var(--light);
+      margin-top: 48px;
+       
+    }
+    
+  .heading-s
+    {font-family: "Fraunces", serif;
+     font-style: normal;
+     font-size:28px;
+     line-height:36px;
+     font-weight: 600;
+     color: var(--dark-purple);}
+
+.bg-dark-purple::before
+    {content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     background-image: url(../images/Rectangle-bg-purple-tablet.png);
+     width: 100%;
+     height: 540px ;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     z-index: -1;
+     }
+
+.header-container
+     { padding-left: 39px;
+       padding-right: 39px;
+       padding-top: 37px;}
+
+.btn-primary.btn1
+      { width: 133px;
+        min-width: 133px;
+        min-height: 55px;
+        margin-top:39px;}
+
+.header-patterns
+      {width: 100%;
+       position: relative;
+       display: block;
+          
+       }
+  
+.bg-pattern-1
+      {position:absolute;
+       left: -227px;
+       top:9px;
+
+      }
+  
+.bg-pattern-2
+      {position:absolute;
+       top: 184px;
+       right: -94px;
+       
+      }
+
+.image-cell
+      { width:479px;
+        height: 286px;
+        margin-top: 55px;
+        }
+
+.info-app::before
+      { content: "";
+        position:absolute;
+        background-image: url(../images/Rectangle-ghost-white-tablet.png);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 920px;
+        background-repeat: no-repeat;
+        z-index: -2;
+        margin-top: -275px;
+
+        }
+.container-info-app
+       {padding-top: 65px;
+        gap:48px;} 
+.information
+      {display: flex;
+       flex-direction: row;
+       justify-content: center;
+       gap: 32px;
+       align-items: normal;
+       }
+
+.number-info
+       {margin-top: 45px;}
+  
+.info-text
+      {text-align: left;}
+
+.text-info-app
+      {width: 493px;
+      }
+
+.info-founder
+      {display: flex;
+       flex-direction: row;
+       align-items: normal;
+       justify-content: center;
+       }
+  
+.img-founder
+      {width: 281px;
+       height:281px;
+       margin-top: 204px;}
+
+.container-info-founder
+      {width:514px;
+       height:375px;
+       margin-top:355px;
+       align-items: normal;
+       padding-left:56px;
+       margin-left: -106px;
+        
+      }
+
+.text-founder
+      {width: 402px;
+       height: auto;      
+       text-align : left;
+       margin-top: 24px;
+      }
+
+.pattern-footer
+      {width: 100%;
+       display: block;
+       position:relative;
+      }
+
+.bg-pattern-3
+      {
+       position:absolute;
+       top:29px;
+       right: 13px;
+      }
+    
+.logo-footer
+      {margin-top: 80px;}
+
+}
+     
+     
+@media (min-width: 1440px)
+
+{.heading-l 
+  {font-family: "Fraunces", serif;
+   font-style: normal;
+   font-size: 80px;
+   line-height: 80px;
+   color: var(--light); 
+   font-weight: 600;
+   width: 635px;
+   height: 160px;
+   text-align: center;
+   margin-top:64px;
+   }
+
+.heading-m
+  { font-family: "Fraunces", serif;
+    font-style: normal;
+    font-size:56px;
+    line-height: 64px;
+    font-weight: 600;
+    color: var(--light);
+    margin-top: 64px; 
+  }
+  
+.heading-s
+  {font-family: "Fraunces", serif;
+   font-style: normal;
+   font-size:32px;
+   line-height:40px;
+   font-weight: 600;
+   color: var(--dark-purple);}
+  
+.bg-dark-purple::before
+  {content:"";
+   background-image: url(../images/Rectangle-bg-purple-desktop.png);
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   height: 730px;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   }
+  
+.header-container
+     { padding-left: 165px;
+       padding-right: 165px;
+       padding-top: 58px;}
+
+.btn-primary.btn1
+      { width: 161px;
+        min-width: 161px;
+        height: 61px;
+        min-height: 61px;
+        margin-top:37px;}
+
+
+
+.bg-pattern-1
+      {
+       top: 34px;
+       left: -138px;
+      }
+
+.bg-pattern-2
+      {
+       top: 223px;
+       right: -48px;
+      }
+
+.image-cell
+      { width:715px;
+        height: 427px;
+        margin-top: 50px;
+        }
+
+.info-app::before
+      { content: "";
+        position:absolute;
+        background-image: url(../images/Rectangle-ghost-white-desktop.png);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 960px;
+        background-repeat: no-repeat;
+        z-index: -2;
+        margin-top: -377px;
+
+        }
+.container-info-app
+       {flex-direction: row;
+        padding-top: 104px;
+        gap:26px;} 
+.information
+      {display: flex;
+       flex-direction: column;
+       justify-content: center;
+       gap: 56px;
+       align-items: center;
+       }
+
+.number-info
+       {margin-top: 0px;
+        width: 56px;
+        height: 56px;
+        font-size: 24px;}
+  
+.info-text
+      {text-align: center;}
+
+.text-info-app
+      {width: 354px;
+       margin-top: 28px;
+       font-size: 18px;
+       line-height: 32px;
+      }
+
+.info-founder
+      {display: flex;
+       flex-direction: row;
+       align-items: normal;
+       justify-content: center;
+       }
+  
+.img-founder
+      {width: 477px;
+       height:477px;
+       margin-top: 281px;}
+
+.container-info-founder
+      {width:730px;
+       height:413px;
+       margin-top:454px;
+       align-items: normal;
+       padding-left:65px;
+       margin-left: -95px;
+      }
+
+.text-founder
+      {
+       width: 602px;
+       height: auto;
+       margin-top: 32px;
+       text-align : left;
+       font-size: 18px;
+       line-height: 32px;
+       }
+
+.btn-primary.btn2
+      {width: 190px;
+       height: 61px;
+       margin-top:32px;}
+
+
+
+.bg-pattern-3
+      {
+       right: 73px;
+       top:8px;
+       }
+
+.logo-footer
+      {margin-top: 122px;}  
+  }
+
+
+  

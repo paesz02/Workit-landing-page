@@ -1,0 +1,14 @@
+* {box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;}
+
+
+   
+:root 
+   {--dark-purple: #24053E;
+    --eucaplyptus: #44FFA1;
+    --davys-grey:#584D62;
+    --ghost-white: #FCF8FF;
+    --light: #fff; }
+
+  
